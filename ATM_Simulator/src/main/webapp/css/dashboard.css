@@ -1,0 +1,179 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 40px 20px;
+}
+
+.dashboard-container {
+  max-width: 550px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f2f4f4;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin: 0;
+  color: #1a252f;
+  font-size: 22px;
+}
+
+.exit-link {
+  background-color: #e74c3c;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.exit-link:hover {
+  background-color: #c0392b;
+}
+
+.balance-display {
+  background-color: #2ecc71;
+  color: #ffffff;
+  padding: 22px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.welcome-text {
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 6px;
+}
+
+.balance-amount {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.status-banner {
+  background-color: #e8f8f5;
+  border-left: 4px solid #2ecc71;
+  color: #117864;
+  padding: 12px 15px;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.panel-operations {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.full-width-row, .pure-form, .action-form {
+  width: 100%;
+}
+
+.action-form {
+  display: flex;
+  gap: 12px;
+}
+
+input[type="number"] {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #d5dbdb;
+  border-radius: 6px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  box-sizing: border-box;
+}
+
+/* Updated Balance Enquiry to Polished Slate Blue */
+.btn-enquiry {
+  background-color: #1e3a8a; 
+  width: 100%;
+}
+
+.btn-enquiry:hover {
+  background-color: #172554;
+}
+
+.btn-deposit {
+  background-color: #2980b9; 
+  min-width: 130px;
+}
+
+.btn-deposit:hover {
+  background-color: #1f618d;
+}
+
+.btn-withdraw {
+  background-color: #d35400; 
+  min-width: 130px;
+}
+
+.btn-withdraw:hover {
+  background-color: #a04000;
+}
+
+.history-section {
+  margin-top: 35px;
+  border-top: 2px solid #f2f4f4;
+  padding-top: 20px;
+}
+
+.history-section h3 {
+  margin: 0 0 15px 0;
+  color: #2c3e50;
+  font-size: 18px;
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.history-table th {
+  background-color: #f8f9fa;
+  padding: 12px 10px;
+  text-align: left;
+  color: #34495e;
+  font-weight: 600;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.history-table td {
+  padding: 12px 10px;
+  color: #555555;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.history-table tr:hover {
+  background-color: #fdfefe;
+}
